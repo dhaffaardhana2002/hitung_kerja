@@ -21,6 +21,6 @@ ct = prompt("Cycle Time: ")
 cav = prompt("Cavity: ")
 jmkj = prompt("Jam Kerja: ")
 
-workTime(ok,ng,after,before,ct,cav)
+alert(workTime(ok,ng,after,before,ct,cav))
 
 } 
