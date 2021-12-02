@@ -8,13 +8,19 @@ workTime = (ok,ng,af,be,ct,cav) => {
 	return parseInt(hasil) + ' Jam, ' + parseInt(mnt) + ' Menit'
 }
 
-let ok = 2500
-let ng = 5
-let after = 125
-let before = 250
-let ct = 14.50
-let cav = 4
-let jmkj = 8
 
-console.log(workTime(ok,ng,after,before,ct,cav))
-console.log(target_shift(jmkj,cav,ct))
+let ok, ng, after, before, ct, cav, jmkj
+
+start_input = () => {
+
+ok = prompt("OK: ")
+ng = prompt("NG: ")
+after = prompt("After: ")
+before = prompt("Before: ")
+ct = prompt("Cycle Time: ")
+cav = prompt("Cavity: ")
+jmkj = prompt("Jam Kerja: ")
+
+workTime(ok,ng,after,before,ct,cav)
+
+} 
