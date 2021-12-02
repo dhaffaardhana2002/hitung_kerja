@@ -13,13 +13,13 @@ let ok, ng, after, before, ct, cav, jmkj
 
 start_input = () => {
 
-ok = prompt("OK: ")
-ng = prompt("NG: ")
-after = prompt("After: ")
-before = prompt("Before: ")
-ct = prompt("Cycle Time: ")
-cav = prompt("Cavity: ")
-jmkj = prompt("Jam Kerja: ")
+ok = parseInt(prompt("OK: "))
+ng = parseInt(prompt("NG: ")) 
+after = parseInt(prompt("After: ")) 
+before = parseInt(prompt("Before: ")) 
+ct = parseFloat(prompt("Cycle Time: ")) 
+cav = parseInt(prompt("Cavity: ")) 
+jmkj = parseInt(prompt("Jam Kerja: "))
 
 alert(workTime(ok,ng,after,before,ct,cav))
 
